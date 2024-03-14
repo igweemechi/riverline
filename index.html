@@ -25,6 +25,17 @@
 
         <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
         <link rel="stylesheet" href="css/index.css">
+        <style>
+            @media (max-width:990px){
+               .our-mission{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                gap: 5px;
+                justify-content: center;
+               }
+            }
+        </style>
         
 <!--
 
@@ -77,9 +88,9 @@ Free Bootstrap 5 HTML Template
         </header>
 
         <nav class="navbar navbar-expand-lg bg-white shadow-lg">
-            <div class="container">
-                <img src="images/RIVERLINE AGENCY LOGO.png" alt="" style="display: flex; width:70px;">
-                <a href="index.html" class="navbar-brand" style="line-height: 25px;">Riveline Agencies<span class="text-danger" style="margin-left:5px; font-size: 25px; "> <br>Nigeria Limited </span></a>
+            <div class="container container-1">
+                <img src="images/RIVERLINE AGENCY LOGO.png" alt="" style="display: flex; width:3rem;">
+                <a href="index.html" class="navbar-brand" style="line-height: 25px; font-size: 1.6rem;">Riveline Agencies<span class="text-danger" style="margin-left:5px; font-size: 1.5rem; "> <br>Nigeria Limited </span></a>
                 
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -89,19 +100,23 @@ Free Bootstrap 5 HTML Template
                 <div class="collapse navbar-collapse" id="navbarNav" style="width: 100%;">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_1"><small class="small-title"><strong class="text-warning">01</strong></small> Home</a>
+                            <a class="nav-link click-scroll" href="index.html"><small class="small-title"><strong class="text-warning">01</strong></small> Home</a>
                         </li>
 
-                        <li class="nav-item dropdown">
+                        <li class="nav-item">
+                            <a class="nav-link click-scroll" href="#section_1"><small class="small-title"><strong class="text-warning">02</strong></small> About</a>
+                        </li>
+
+                        <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <small class="small-title"><strong class="text-warning">02</strong></small> About
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#section_2"> About us</a>
-                                <a class="dropdown-item" href="project-detail.html">Board Director</a>
+                             
+                                <a class="dropdown-item" href="project-detail.html"></a>
                             </div>
-                        </li>
+                        </li> -->
     
 
                         <li class="nav-item">
@@ -109,13 +124,12 @@ Free Bootstrap 5 HTML Template
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link click-scroll" href="#section_4"><small class="small-title"><strong class="text-warning">04</strong></small> Projects</a>
+                            <a class="nav-link click-scroll" href="project-detail.html"><small class="small-title"><strong class="text-warning">04</strong></small> Board Director</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link click-scroll" href="#section_5"><small class="small-title"><strong class="text-warning">05</strong></small> Contact</a>
                         </li>
-
                     </ul>
                 <div>
                         
@@ -232,8 +246,8 @@ Free Bootstrap 5 HTML Template
                                 </div>
                             </div>
 
-                            <div class="row h-100">
-                                <div class="col-lg-6 col-6">
+                            <div class="row h-100 our-mission">
+                                <div class="col-lg-6 col-6  our-mission" >
                                     <div class="about-thumb d-flex flex-column justify-content-center bg-danger mb-lg-0 h-100">
                                         
                                         <div class="about-info">
@@ -245,7 +259,7 @@ Free Bootstrap 5 HTML Template
                                     </div>
                                 </div>
 
-                                <div class="col-lg-6 col-6">
+                                <div class="col-lg-6 col-6  our-mission">
                                     <div class="about-thumb d-flex flex-column justify-content-center bg-warning mb-lg-0 h-100">
                                         
                                         <div class="about-info">
